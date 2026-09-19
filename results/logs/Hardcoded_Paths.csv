@@ -1,0 +1,12 @@
+file,line,path_literal,path_type,severity,recommended_fix
+Figure2_ABC.R,10,lauer_style_comparison/output,output,high,Move to config.yml output roots
+Figure2_ABC.R,48,c:/Users/SimonYao/Desktop/LCM_protemics_thrombus/thrombusDIAreport.xls,input,critical,Replace with config-provided input path only
+Figure2_ABC_5cluster.R,10,lauer_style_comparison/output20260205,output,high,Move to config.yml output roots
+Figure2_ABC_5cluster.R,51,c:/Users/SimonYao/Desktop/LCM_protemics_thrombus/thrombusDIAreport.xls,input,critical,Replace with config-provided input path only
+Figure2_ABC_5cluster.R,1367,C:/Users/SimonYao/Desktop/LCM_protemics_thrombus/Matrisome,database,critical,Replace with config matrisome path and manifest metadata
+Figure2_ABC_5cluster.R,1415,c:/Users/SimonYao/Desktop/LCM_protemics_thrombus/lauer_style_comparison/Matrisome,database,critical,Remove duplicate hardcoded DB root and centralize config
+Figure2_ABC_5cluster.R,2256,C:/Users/SimonYao/Desktop/LCM_protemics_thrombus/lauer_style_comparison/ECM reactome,database,high,Move to config.yml external database section
+Figure2_ABC_spatial3cluster.R,6,lauer_style_comparison/output_D14_Spatial,output,high,Move to config.yml output roots
+Figure2_ABC_spatial3cluster.R,32,c:/Users/SimonYao/Desktop/LCM_protemics_thrombus/thrombusDIAreport.xls,input,critical,Replace with config-provided input path only
+Figure2_ABC_spatial3cluster.R,152,C:/Users/SimonYao/Desktop/LCM_protemics_thrombus/Matrisome,database,critical,Replace with config matrisome path and manifest metadata
+analyze_bli_ms_fbln7.R,25,c:/Users/SimonYao/Desktop/分子垂钓/蛋白鉴定列表.csv,input,critical,Replace with config-provided BLI-MS path only

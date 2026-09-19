@@ -1,0 +1,78 @@
+project:
+  name: DVT
+  root: .
+  species_primary: mouse
+  species_secondary: human
+
+paths:
+  raw_proteomics_file: thrombusDIAreport_sample.xls
+  metadata_file: data/raw/sample_metadata.csv
+  matrisome_database: data/external/matrisome/matrisome_master.tsv
+  integrin_ligand_receptor_table: data/external/integrin/integrin_ligand_receptor.csv
+  ppi_database: data/external/ppi/ppi_master.tsv
+  bli_ms_file: data/raw/bli_ms_protein_identification.csv
+  contrasts: config/contrasts.csv
+  output_root: results
+  logs_dir: results/logs
+  tables_dir: results/tables
+  figures_dir: results/figures
+  networks_dir: results/networks
+
+analysis:
+  random_seed: 123
+  thresholds:
+    fdr: 0.05
+    abs_log2fc: 0.58
+    min_detection_rate: 0.5
+  network:
+    min_confidence: 0.7
+    include_predicted_edges: false
+    centrality_methods: [degree, betweenness, eigenvector, pagerank]
+
+databases:
+  matrisome:
+    source: MatrisomeDB
+    version: TO_BE_FILLED
+    download_date: TO_BE_FILLED
+    species: mouse
+    evidence_type: curated
+  biogrid:
+    version: TO_BE_FILLED
+    download_date: TO_BE_FILLED
+    species: mouse
+    evidence_type: physical_genetic
+  intact:
+    version: TO_BE_FILLED
+    download_date: TO_BE_FILLED
+    species: mouse
+    evidence_type: curated_experimental
+  string:
+    version: TO_BE_FILLED
+    download_date: TO_BE_FILLED
+    species: mouse
+    evidence_type: physical_functional
+  matrixdb:
+    version: TO_BE_FILLED
+    download_date: TO_BE_FILLED
+    species: mouse
+    evidence_type: extracellular_matrix
+  corum:
+    version: TO_BE_FILLED
+    download_date: TO_BE_FILLED
+    species: mammal
+    evidence_type: protein_complex
+  omnipath:
+    version: TO_BE_FILLED
+    download_date: TO_BE_FILLED
+    species: human_mouse_mapped
+    evidence_type: curated_signaling
+  reactome:
+    version: TO_BE_FILLED
+    download_date: TO_BE_FILLED
+    species: mouse
+    evidence_type: pathway_curated
+  uniprot:
+    version: TO_BE_FILLED
+    download_date: TO_BE_FILLED
+    species: mouse_human
+    evidence_type: protein_annotation

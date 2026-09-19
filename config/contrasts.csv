@@ -1,0 +1,12 @@
+contrast_id,numerator,denominator,variable_type,controlled_variable,biological_question,interpretation_limit,primary_or_exploratory
+D14_Collagen_vs_D14_Fibrin,D14_Collagen,D14_Fibrin,space,time_fixed_D14,Spatial difference within D14,Can be interpreted as spatial effect at D14,primary
+D14_Wall_vs_D14_Collagen,D14_Wall,D14_Collagen,space,time_fixed_D14,Spatial difference within D14,Can be interpreted as spatial effect at D14,primary
+D14_Wall_vs_D14_Fibrin,D14_Wall,D14_Fibrin,space,time_fixed_D14,Spatial difference within D14,Can be interpreted as spatial effect at D14,primary
+D7_Collagen_vs_D7_Fibrin,D7_Collagen,D7_Fibrin,space,time_fixed_D7,Spatial difference within D7,Can be interpreted as spatial effect at D7,primary
+D7_Fibrin_vs_D2_Fibrin,D7_Fibrin,D2_Fibrin,time,space_fixed_Fibrin,Temporal change within Fibrin,Can be interpreted as time effect in Fibrin,primary
+D14_Fibrin_vs_D7_Fibrin,D14_Fibrin,D7_Fibrin,time,space_fixed_Fibrin,Temporal change within Fibrin,Can be interpreted as time effect in Fibrin,primary
+D14_Fibrin_vs_D2_Fibrin,D14_Fibrin,D2_Fibrin,time,space_fixed_Fibrin,Temporal change within Fibrin,Can be interpreted as time effect in Fibrin,primary
+D14_Collagen_vs_D7_Collagen,D14_Collagen,D7_Collagen,time,space_fixed_Collagen,Temporal change within Collagen,Can be interpreted as time effect in Collagen,primary
+D14_Collagen_vs_D2_Fibrin,D14_Collagen,D2_Fibrin,mixed,none,Composite state difference,Cannot be interpreted as pure time or pure space,exploratory
+D14_Wall_vs_D2_Fibrin,D14_Wall,D2_Fibrin,mixed,none,Composite state difference,Cannot be interpreted as pure time or pure space,exploratory
+D14_Collagen_vs_D7_Fibrin,D14_Collagen,D7_Fibrin,mixed,none,Composite state difference,Cannot be interpreted as pure time or pure space,exploratory

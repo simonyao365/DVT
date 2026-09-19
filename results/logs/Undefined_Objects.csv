@@ -1,0 +1,6 @@
+file,line,object_name,context,severity,impact,recommended_fix
+Figure2_ABC_spatial3cluster.R,357,metadata_d14,"rowMeans(expr_lin[, metadata_d14$Group == g])",critical,Script stops at ternary section with object not found,Replace with metadata_subset and restrict ternary groups to D14 only
+Figure2_ABC_spatial3cluster.R,370,feature_d14,"feature_d14$Symbol[...]",critical,Script stops at ternary annotation with object not found,Replace with feature_subset or feature_filtered consistently
+Figure2_ABC.R,38,src/data_loader.R,"source('src/data_loader.R')",critical,Pipeline cannot start because loader file is missing from repository,Create R-compatible loader module and update source path
+Figure2_ABC_5cluster.R,41,src/data_loader.R,"source('src/data_loader.R')",critical,Pipeline cannot start because loader file is missing from repository,Create R-compatible loader module and update source path
+Figure2_ABC_spatial3cluster.R,25,src/data_loader.R,"source('src/data_loader.R')",critical,Pipeline cannot start because loader file is missing from repository,Create R-compatible loader module and update source path

@@ -1,0 +1,19 @@
+file,contrast_id,numerator,denominator,is_controlled,variable_type,interpretation_limit,status,notes
+Figure2_ABC.R,D2_F_vs_D7_F,D7_Fibrin,D2_Fibrin,yes,time,time effect within Fibrin,pass,Direction consistent with ID naming
+Figure2_ABC.R,D7_F_vs_D14_F,D14_Fibrin,D7_Fibrin,yes,time,time effect within Fibrin,pass,Direction consistent with ID naming
+Figure2_ABC.R,D7_C_vs_D14_C,D14_Collagen,D7_Collagen,yes,time,time effect within Collagen,pass,Defined in makeContrasts and group_map
+Figure2_ABC.R,D7_C_vs_D7_F,D7_Collagen,D7_Fibrin,yes,space,spatial effect within D7,pass,Controlled spatial comparison
+Figure2_ABC.R,D14_C_vs_D14_F,D14_Collagen,D14_Fibrin,yes,space,spatial effect within D14,pass,Controlled spatial comparison
+Figure2_ABC.R,D14_F_vs_D7_F,D14_Fibrin,D7_Fibrin,yes,time,time effect within Fibrin,pass,Controlled temporal comparison
+Figure2_ABC.R,D14_F_vs_D14_C,D14_Fibrin,D14_Collagen,yes,space,spatial effect within D14,pass,Inverse orientation of D14_C_vs_D14_F also appears
+Figure2_ABC.R,D14_F_vs_D2_F,D14_Fibrin,D2_Fibrin,yes,time,time effect within Fibrin,pass,Controlled temporal comparison
+Figure2_ABC.R,D14_Wall_vs_D14_Collagen,D14_Wall,D14_Collagen,yes,space,spatial effect within D14,pass,Controlled spatial comparison
+Figure2_ABC_5cluster.R,D14_C_vs_D7_F,D14_Collagen,D7_Fibrin,no,mixed,"cannot be interpreted as pure time or space",warning,Should be exploratory only
+Figure2_ABC_5cluster.R,D14_C_vs_D7_C,D14_Collagen,D7_Collagen,yes,time,time effect within Collagen,pass,Controlled temporal comparison
+Figure2_ABC_spatial3cluster.R,D7C_vs_D2F,D7_Collagen,D2_Fibrin,no,mixed,"cannot be interpreted as pure time or space",warning,Should be exploratory only
+Figure2_ABC_spatial3cluster.R,D14C_vs_D7F,D14_Collagen,D7_Fibrin,no,mixed,"cannot be interpreted as pure time or space",warning,Should be exploratory only
+Figure2_ABC_spatial3cluster.R,D14C_vs_D2F,D14_Collagen,D2_Fibrin,no,mixed,"cannot be interpreted as pure time or space",warning,Should be exploratory only
+Figure2_ABC_spatial3cluster.R,C_vs_F,D14_Collagen,D14_Fibrin,yes,space,spatial effect within D14,pass,Controlled spatial comparison
+Figure2_ABC_spatial3cluster.R,W_vs_C,D14_Wall,D14_Collagen,yes,space,spatial effect within D14,pass,Controlled spatial comparison
+Figure2_ABC_spatial3cluster.R,W_vs_F,D14_Wall,D14_Fibrin,yes,space,spatial effect within D14,pass,Controlled spatial comparison
+Figure2_ABC_spatial3cluster.R,GLOBAL_FTEST,multiple,multiple,partial,global,"contains D2/D7 and D14 groups while section labeled D14 spatial",warning,Title-scope mismatch in downstream visualization labels
